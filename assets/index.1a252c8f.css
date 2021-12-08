@@ -103,25 +103,20 @@ nav[role=navigation] li a[data-v-3d99218c] {
 
 /* purgecss end ignore */
 /* purgecss start ignore */
-a[data-v-72fd5ead] {
+a[data-v-140f1c3c] {
   background-color: #DEA30B;
   border-radius: 5px;
-  padding: 20px 52px;
+  padding: 14px 50px;
   font-size: 24px;
   line-height: 29px;
 }
-a.big[data-v-72fd5ead] {
-  font-size: 30px;
-  line-height: 36px;
-  padding: 11px 41px;
-}
 @media all and (max-width: 800px) {
-a[data-v-72fd5ead] {
+a[data-v-140f1c3c] {
     padding: 15px 40px;
 }
 }
 @media all and (max-width: 500px) {
-a[data-v-72fd5ead] {
+a[data-v-140f1c3c] {
     padding: 10px 25px;
 }
 }
@@ -230,19 +225,19 @@ span[data-v-3bec04ae] {
 
 /* purgecss end ignore */
 /* purgecss start ignore */
-.link[data-v-1d1816a0] {
+.link[data-v-2545bdf8] {
   font-size: 18px;
   line-height: 25px;
   color: #FFC225;
 }
-.title[data-v-1d1816a0] {
+.title[data-v-2545bdf8] {
   font-size: 24px;
   line-height: 76%;
 }
-.description[data-v-1d1816a0] {
+.description[data-v-2545bdf8] {
   font-size: 18px;
   line-height: 25px;
-  color: #606060;
+  color: #fff;
 }
 
 /* purgecss end ignore */
@@ -397,26 +392,38 @@ p[data-v-f8550256] {
   background-position: center top;
   background-color: rgb(1, 1, 1);
 }
-@media all and (min-width: 501px) {
+@media all and (min-width: 801px) {
 .webp .main {
-    background-image: url('/assets/bg-compressed.a7a26ab7.webp');
-    background-image: url('/assets/bg-compressed.a7a26ab7.webp'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
+    background-image: url('/images/bg-compressed.webp');
+    background-image: url('/images/bg-compressed.webp'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
 }
 .no-webp .main {
-    background-image: url('/assets/bg-compressed.0c5b55ee.jpg');
-    background-image: url('/assets/bg-compressed.0c5b55ee.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
+    background-image: url('/images/bg-compressed.jpg');
+    background-image: url('/images/bg-compressed.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
+}
+}
+@media all and (min-width: 501px) and (max-width: 800px) {
+.webp .main {
+    background-size: cover;
+    background-image: url('/images/bg-medium.jpg');
+    background-image: url('/images/bg-medium.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
+}
+.no-webp .main {
+    background-size: cover;
+    background-image: url('/images/bg-medium.jpg');
+    background-image: url('/images/bg-medium.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
 }
 }
 @media all and (max-width: 500px) {
 .webp .main {
     background-size: cover;
-    background-image: url('/assets/bg-small.7ffba452.jpg');
-    background-image: url('/assets/bg-small.7ffba452.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
+    background-image: url('/images/bg-small.jpg');
+    background-image: url('/images/bg-small.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
 }
 .no-webp .main {
     background-size: cover;
-    background-image: url('/assets/bg-small.7ffba452.jpg');
-    background-image: url('/assets/bg-small.7ffba452.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
+    background-image: url('/images/bg-small.jpg');
+    background-image: url('/images/bg-small.jpg'), linear-gradient(180deg, rgba(14, 14, 14, 0) 15.1%, rgba(0, 0, 0, 0.39) 84.9%, rgba(0, 0, 0, 0.65) 100%);
 }
 }
 
@@ -1071,6 +1078,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -1145,10 +1156,6 @@ video {
 
 .h-10 {
   height: 2.5rem;
-}
-
-.min-h-screen {
-  min-height: 100vh;
 }
 
 .w-10 {
@@ -1284,11 +1291,6 @@ video {
   border-width: 1px;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1359,10 +1361,6 @@ video {
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background-image: url('/assets/bg-compressed.a7a26ab7.webp');
 }
 
 .container {

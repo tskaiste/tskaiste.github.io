@@ -71,7 +71,7 @@ function _sfc_render$9(_ctx, _cache, $props, $setup, $data, $options) {
     renderSlot(_ctx.$slots, "default", {}, void 0, true)
   ]);
 }
-var AppSocialLink = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$9], ["__scopeId", "data-v-44545b1e"]]);
+var AppSocialLink = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$9], ["__scopeId", "data-v-3d1a55a4"]]);
 var AppNavLinkDivider_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _sfc_main$g = {
   name: "AppNavLinkDivider"
@@ -207,7 +207,7 @@ const _sfc_main$f = {
   }
 };
 var AppNav = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["__scopeId", "data-v-3d99218c"]]);
-var _imports_0$3 = "/assets/video.520fe327.jpg";
+var _imports_0$3 = "/images/video.jpg";
 var _imports_1$2 = "/assets/moonlorian-logo.965041ba.png";
 var AppLink_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _sfc_main$e = {
@@ -219,7 +219,7 @@ function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
     renderSlot(_ctx.$slots, "default", {}, void 0, true)
   ]);
 }
-var AppLink = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$7], ["__scopeId", "data-v-72fd5ead"]]);
+var AppLink = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$7], ["__scopeId", "data-v-140f1c3c"]]);
 var AppHeader_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _withScopeId$5 = (n) => (pushScopeId("data-v-1aa85cdc"), n = n(), popScopeId(), n);
 const _hoisted_1$c = { class: "header" };
@@ -316,8 +316,8 @@ var _imports_2$1 = "/assets/3.ac597e23.jpg";
 var _imports_3 = "/assets/4.853d7e28.jpg";
 var _imports_4 = "/assets/5.1930b572.jpg";
 var AppSlider_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _withScopeId$4 = (n) => (pushScopeId("data-v-5ae38210"), n = n(), popScopeId(), n);
-const _hoisted_1$8 = { class: "glide mt-6 md:mt-14" };
+const _withScopeId$4 = (n) => (pushScopeId("data-v-668170c9"), n = n(), popScopeId(), n);
+const _hoisted_1$8 = { class: "glide mt-6 md:mt-14 mx-auto" };
 const _hoisted_2$8 = /* @__PURE__ */ _withScopeId$4(() => /* @__PURE__ */ createBaseVNode("div", {
   "data-glide-el": "track",
   class: "glide__track"
@@ -356,47 +356,64 @@ const _hoisted_2$8 = /* @__PURE__ */ _withScopeId$4(() => /* @__PURE__ */ create
   ])
 ], -1));
 const _hoisted_3$6 = /* @__PURE__ */ _withScopeId$4(() => /* @__PURE__ */ createBaseVNode("div", { class: "flex justify-center items-center mt-8 mb-14" }, [
-  /* @__PURE__ */ createBaseVNode("svg", {
-    width: "127",
-    height: "12",
-    viewBox: "0 0 127 12",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, [
-    /* @__PURE__ */ createBaseVNode("path", {
-      d: "M125.5 7C126.052 7 126.5 6.55228 126.5 6C126.5 5.44772 126.052 5 125.5 5L125.5 7ZM0.226497 6.00001L6 11.7735L11.7735 6.00001L6 0.226508L0.226497 6.00001ZM125.5 5L6 5.00001L6 7.00001L125.5 7L125.5 5Z",
-      fill: "white"
-    })
-  ]),
   /* @__PURE__ */ createBaseVNode("div", {
-    class: "glide__bullets flex items-center justify-center mx-10",
-    style: { "min-height": "25px" },
-    "data-glide-el": "controls[nav]"
+    "data-glide-el": "controls",
+    class: "flex"
   }, [
-    /* @__PURE__ */ createBaseVNode("button", {
-      class: "glide__bullet",
-      "data-glide-dir": "=0"
-    }),
-    /* @__PURE__ */ createBaseVNode("button", {
-      class: "glide__bullet",
-      "data-glide-dir": "=1"
-    }),
-    /* @__PURE__ */ createBaseVNode("button", {
-      class: "glide__bullet",
-      "data-glide-dir": "=2"
-    })
-  ]),
-  /* @__PURE__ */ createBaseVNode("svg", {
-    width: "127",
-    height: "12",
-    viewBox: "0 0 127 12",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, [
-    /* @__PURE__ */ createBaseVNode("path", {
-      d: "M1 5C0.447715 5 0 5.44772 0 6C0 6.55228 0.447715 7 1 7V5ZM126.274 6L120.5 0.226497L114.726 6L120.5 11.7735L126.274 6ZM1 7H120.5V5H1V7Z",
-      fill: "white"
-    })
+    /* @__PURE__ */ createBaseVNode("button", { "data-glide-dir": "<" }, [
+      /* @__PURE__ */ createBaseVNode("svg", {
+        width: "127",
+        height: "12",
+        viewBox: "0 0 127 12",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+      }, [
+        /* @__PURE__ */ createBaseVNode("path", {
+          d: "M125.5 7C126.052 7 126.5 6.55228 126.5 6C126.5 5.44772 126.052 5 125.5 5L125.5 7ZM0.226497 6.00001L6 11.7735L11.7735 6.00001L6 0.226508L0.226497 6.00001ZM125.5 5L6 5.00001L6 7.00001L125.5 7L125.5 5Z",
+          fill: "white"
+        })
+      ])
+    ]),
+    /* @__PURE__ */ createBaseVNode("div", {
+      class: "glide__bullets flex items-center justify-center mx-4 md:mx-10",
+      style: { "min-height": "25px" },
+      "data-glide-el": "controls[nav]"
+    }, [
+      /* @__PURE__ */ createBaseVNode("button", {
+        class: "glide__bullet",
+        "data-glide-dir": "=0"
+      }),
+      /* @__PURE__ */ createBaseVNode("button", {
+        class: "glide__bullet",
+        "data-glide-dir": "=1"
+      }),
+      /* @__PURE__ */ createBaseVNode("button", {
+        class: "glide__bullet",
+        "data-glide-dir": "=3"
+      }),
+      /* @__PURE__ */ createBaseVNode("button", {
+        class: "glide__bullet",
+        "data-glide-dir": "=4"
+      }),
+      /* @__PURE__ */ createBaseVNode("button", {
+        class: "glide__bullet",
+        "data-glide-dir": "=5"
+      })
+    ]),
+    /* @__PURE__ */ createBaseVNode("button", { "data-glide-dir": ">" }, [
+      /* @__PURE__ */ createBaseVNode("svg", {
+        width: "127",
+        height: "12",
+        viewBox: "0 0 127 12",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+      }, [
+        /* @__PURE__ */ createBaseVNode("path", {
+          d: "M1 5C0.447715 5 0 5.44772 0 6C0 6.55228 0.447715 7 1 7V5ZM126.274 6L120.5 0.226497L114.726 6L120.5 11.7735L126.274 6ZM1 7H120.5V5H1V7Z",
+          fill: "white"
+        })
+      ])
+    ])
   ])
 ], -1));
 const _hoisted_4$4 = [
@@ -407,13 +424,18 @@ const _sfc_main$8 = {
   setup(__props) {
     onMounted(() => {
       new Glide(".glide", {
-        type: "carousel",
-        startAt: 0,
-        perView: 3,
+        type: "slider ",
+        startAt: 2,
         gap: 50,
-        peek: 260,
+        peek: 0,
+        perView: 5,
         focusAt: "center",
         breakpoints: {
+          2200: {
+            perView: 3,
+            peek: 260,
+            gap: 50
+          },
           1400: {
             peek: 10,
             perView: 3,
@@ -425,6 +447,7 @@ const _sfc_main$8 = {
             gap: 20
           },
           450: {
+            gap: 20,
             peek: 0,
             perView: 1
           }
@@ -436,7 +459,7 @@ const _sfc_main$8 = {
     };
   }
 };
-var AppSlider = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["__scopeId", "data-v-5ae38210"]]);
+var AppSlider = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["__scopeId", "data-v-668170c9"]]);
 var _imports_0$1 = "data:image/png;base64,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";
 var AppVideo_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _withScopeId$3 = (n) => (pushScopeId("data-v-3d8a3830"), n = n(), popScopeId(), n);
@@ -521,7 +544,7 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
     createBaseVNode("p", _hoisted_7$3, toDisplayString($props.description), 1)
   ]);
 }
-var MemberCard = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$1], ["__scopeId", "data-v-1d1816a0"]]);
+var MemberCard = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$1], ["__scopeId", "data-v-2545bdf8"]]);
 var _imports_0 = "/assets/lightning-full.08364670.svg";
 var _imports_1 = "/assets/lightning-empty.80eb779c.svg";
 var _imports_2 = "/assets/lightning-small.29c80754.svg";
@@ -537,7 +560,7 @@ const _sfc_main$4 = {
     }
   }
 };
-const _withScopeId$1 = (n) => (pushScopeId("data-v-2c7ae71f"), n = n(), popScopeId(), n);
+const _withScopeId$1 = (n) => (pushScopeId("data-v-535ac62a"), n = n(), popScopeId(), n);
 const _hoisted_1$4 = {
   key: 0,
   class: "side",
@@ -592,7 +615,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ], 2);
 }
-var RoadMapItem = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render], ["__scopeId", "data-v-2c7ae71f"]]);
+var RoadMapItem = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render], ["__scopeId", "data-v-535ac62a"]]);
 var RoadMap_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _hoisted_1$3 = { class: "container flex justify-between mt-14 mb-14" };
 const _hoisted_2$3 = { class: "road-map w-full" };
@@ -743,14 +766,14 @@ const _hoisted_11 = /* @__PURE__ */ createTextVNode("ROAD MAP");
 const _hoisted_12 = /* @__PURE__ */ createTextVNode("Heroes! Welcome to the inception of the Space Robots universe! Do NOT Panic! Reading the roadmap will help guide you through the long journey we will all be about to depart. As the humans behind the Space Robots, we will build the vessel. But it depends on YOU, the team, how fast we will reach the destination!");
 const _hoisted_13 = /* @__PURE__ */ createTextVNode("OUR TEAM");
 const _hoisted_14 = {
-  class: "flex flex-wrap justify-center items-center gap-8",
-  style: { "max-width": "1528px", "padding": "0 1rem", "margin": "0 auto" }
+  class: "flex flex-wrap justify-center items-start gap-8",
+  style: { "max-width": "1528px", "padding": "0px 1rem", "margin": "0px auto" }
 };
 const _hoisted_15 = /* @__PURE__ */ createTextVNode("Developers");
 const _hoisted_16 = /* @__PURE__ */ createBaseVNode("div", { class: "flex justify-center mt-2 mb-10" }, [
   /* @__PURE__ */ createBaseVNode("a", {
     href: "https://www.moonlorian.com/",
-    title: "Moolorian"
+    title: "Moonlorian"
   }, [
     /* @__PURE__ */ createBaseVNode("img", {
       src: _imports_1$2,
@@ -766,7 +789,7 @@ const _sfc_main$2 = {
         createVNode(AppHeader),
         createVNode(Section, { id: "collection" }, {
           default: withCtx(() => [
-            createVNode(SectionHeader, null, {
+            createVNode(SectionHeader, { class: "mt-4 md:mt-14" }, {
               default: withCtx(() => [
                 _hoisted_1$2
               ]),
@@ -792,14 +815,14 @@ const _sfc_main$2 = {
             }),
             createVNode(AppLink, {
               href: "https://spacerobots.typeform.com/phase-2-sale",
-              class: "mt-2 mb-10 big"
+              class: "mt-2 mb-10"
             }, {
               default: withCtx(() => [
                 _hoisted_4$1
               ]),
               _: 1
             }),
-            createVNode(SectionParagraph, null, {
+            createVNode(SectionParagraph, { style: { "color": "#606060", "text-shadow": "none" } }, {
               default: withCtx(() => [
                 _hoisted_5$1
               ]),
@@ -919,7 +942,7 @@ const _sfc_main$2 = {
           ]),
           _: 1
         }),
-        createVNode(Section, { class: "mb-12 md:mb-24" }, {
+        createVNode(Section, { class: "mb-12" }, {
           default: withCtx(() => [
             createVNode(SectionHeader, null, {
               default: withCtx(() => [
@@ -1004,10 +1027,7 @@ const _sfc_main$1 = {
 };
 var AppFooter = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-f8550256"]]);
 var App_vue_vue_type_style_index_0_lang = "";
-const _hoisted_1 = {
-  class: "main text-white",
-  style: { "background-color": "#010101" }
-};
+const _hoisted_1 = { class: "main text-white" };
 const _hoisted_2 = { style: { "position": "relative", "z-index": "1" } };
 const _sfc_main = {
   setup(__props) {
