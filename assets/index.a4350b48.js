@@ -213,17 +213,17 @@ var AppLink_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _sfc_main$e = {
   name: "AppLink"
 };
-const _hoisted_1$d = { class: "inline-block font-lato font-bold text-center uppercase" };
+const _hoisted_1$d = { class: "inline-block font-lato font-extrabold text-center uppercase" };
 function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("a", _hoisted_1$d, [
     renderSlot(_ctx.$slots, "default", {}, void 0, true)
   ]);
 }
-var AppLink = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$7], ["__scopeId", "data-v-140f1c3c"]]);
+var AppLink = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$7], ["__scopeId", "data-v-83bcc74c"]]);
 var AppHeader_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _withScopeId$5 = (n) => (pushScopeId("data-v-1aa85cdc"), n = n(), popScopeId(), n);
+const _withScopeId$5 = (n) => (pushScopeId("data-v-34ec263c"), n = n(), popScopeId(), n);
 const _hoisted_1$c = { class: "header" };
-const _hoisted_2$a = /* @__PURE__ */ _withScopeId$5(() => /* @__PURE__ */ createBaseVNode("h1", { class: "font-lato font-bold text-center uppercase" }, "Space Robots Phase 2 Sale", -1));
+const _hoisted_2$a = /* @__PURE__ */ _withScopeId$5(() => /* @__PURE__ */ createBaseVNode("h1", { class: "font-lato font-extrabold text-center uppercase" }, "Space Robots Phase 2 Sale", -1));
 const _hoisted_3$8 = /* @__PURE__ */ createTextVNode("Register");
 const _sfc_main$d = {
   setup(__props) {
@@ -243,18 +243,18 @@ const _sfc_main$d = {
     };
   }
 };
-var AppHeader = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-1aa85cdc"]]);
+var AppHeader = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-34ec263c"]]);
 var SectionHeader_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _sfc_main$c = {
   name: "SectionHeader"
 };
-const _hoisted_1$b = { class: "font-lato font-bold text-center uppercase mb-6" };
+const _hoisted_1$b = { class: "font-lato font-extrabold text-center uppercase mb-6" };
 function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("h2", _hoisted_1$b, [
     renderSlot(_ctx.$slots, "default", {}, void 0, true)
   ]);
 }
-var SectionHeader = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["render", _sfc_render$6], ["__scopeId", "data-v-4c580295"]]);
+var SectionHeader = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["render", _sfc_render$6], ["__scopeId", "data-v-5ad99525"]]);
 var SectionParagraph_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _sfc_main$b = {
   name: "SectionParagraph"
@@ -529,7 +529,7 @@ const _hoisted_5$3 = {
   key: 1,
   class: "link font-opensans text-center"
 };
-const _hoisted_6$3 = { class: "title font-lato font-bold text-center uppercase my-4" };
+const _hoisted_6$3 = { class: "title font-lato font-extrabold text-center uppercase my-4" };
 const _hoisted_7$3 = { class: "description font-opensans text-center" };
 function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("div", _hoisted_1$5, [
@@ -554,7 +554,7 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
     createBaseVNode("p", _hoisted_7$3, toDisplayString($props.description), 1)
   ]);
 }
-var MemberCard = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$1], ["__scopeId", "data-v-c21533a8"]]);
+var MemberCard = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["render", _sfc_render$1], ["__scopeId", "data-v-2d91a352"]]);
 var _imports_0 = "/assets/lightning-full.08364670.svg";
 var _imports_1 = "/assets/lightning-empty.80eb779c.svg";
 var _imports_2 = "/assets/lightning-small.29c80754.svg";
@@ -570,7 +570,7 @@ const _sfc_main$4 = {
     }
   }
 };
-const _withScopeId$1 = (n) => (pushScopeId("data-v-535ac62a"), n = n(), popScopeId(), n);
+const _withScopeId$1 = (n) => (pushScopeId("data-v-ffa77206"), n = n(), popScopeId(), n);
 const _hoisted_1$4 = {
   key: 0,
   class: "side",
@@ -583,7 +583,7 @@ const _hoisted_2$4 = {
   src: _imports_1,
   alt: "Lightning icon"
 };
-const _hoisted_3$3 = { class: "title font-lato font-bold uppercase" };
+const _hoisted_3$3 = { class: "title font-lato font-extrabold uppercase" };
 const _hoisted_4$2 = {
   key: 0,
   class: "small",
@@ -625,7 +625,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ], 2);
 }
-var RoadMapItem = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render], ["__scopeId", "data-v-535ac62a"]]);
+var RoadMapItem = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render], ["__scopeId", "data-v-ffa77206"]]);
 var RoadMap_vue_vue_type_style_index_0_scoped_true_lang = "";
 const _hoisted_1$3 = { class: "container flex justify-between mt-14 mb-14" };
 const _hoisted_2$3 = { class: "road-map w-full" };

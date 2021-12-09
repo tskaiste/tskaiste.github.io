@@ -103,7 +103,7 @@ nav[role=navigation] li a[data-v-3d99218c] {
 
 /* purgecss end ignore */
 /* purgecss start ignore */
-a[data-v-140f1c3c] {
+a[data-v-83bcc74c] {
   background-color: #DEA30B;
   border-radius: 5px;
   padding: 14px 50px;
@@ -111,26 +111,26 @@ a[data-v-140f1c3c] {
   line-height: 29px;
 }
 @media all and (max-width: 800px) {
-a[data-v-140f1c3c] {
+a[data-v-83bcc74c] {
     padding: 15px 40px;
 }
 }
 @media all and (max-width: 500px) {
-a[data-v-140f1c3c] {
+a[data-v-83bcc74c] {
     padding: 10px 25px;
 }
 }
 
 /* purgecss end ignore */
 /* purgecss start ignore */
-.header[data-v-1aa85cdc] {
+.header[data-v-34ec263c] {
   min-height: calc(100vh - 110px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-h1[data-v-1aa85cdc] {
+h1[data-v-34ec263c] {
   font-size: 48px;
   line-height: 143%;
   letter-spacing: 0.05em;
@@ -138,26 +138,26 @@ h1[data-v-1aa85cdc] {
   margin-top: 8vw;
 }
 @media all and (max-width: 700px) {
-.header[data-v-1aa85cdc] {
+.header[data-v-34ec263c] {
     min-height: calc(100vh - 80px);
 }
-h1[data-v-1aa85cdc] {
+h1[data-v-34ec263c] {
     font-size: 36px;
 }
 }
 
 /* purgecss end ignore */
 /* purgecss start ignore */
-h2[data-v-4c580295] {
+h2[data-v-5ad99525] {
   font-size: 64px;
 }
 @media all and (max-width: 1920px) {
-h2[data-v-4c580295] {
+h2[data-v-5ad99525] {
     font-size: 3.125vw;
 }
 }
 @media all and (max-width: 800px) {
-h2[data-v-4c580295] {
+h2[data-v-5ad99525] {
     font-size: 34px;
 }
 }
@@ -225,16 +225,16 @@ span[data-v-3bec04ae] {
 
 /* purgecss end ignore */
 /* purgecss start ignore */
-.link[data-v-c21533a8] {
+.link[data-v-2d91a352] {
   font-size: 18px;
   line-height: 25px;
   color: #FFC225;
 }
-.title[data-v-c21533a8] {
+.title[data-v-2d91a352] {
   font-size: 24px;
   line-height: 76%;
 }
-.description[data-v-c21533a8] {
+.description[data-v-2d91a352] {
   font-size: 18px;
   line-height: 25px;
   color: #fff;
@@ -242,23 +242,23 @@ span[data-v-3bec04ae] {
 
 /* purgecss end ignore */
 /* purgecss start ignore */
-img.side[data-v-535ac62a] {
+img.side[data-v-ffa77206] {
   position: absolute;
   left: -125px;
   top: 50%;
   transform: translateY(-50%);
 }
-img.small[data-v-535ac62a] {
+img.small[data-v-ffa77206] {
   margin-left: -30px;
   margin-right: 15px;
 }
-.box[data-v-535ac62a] {
+.box[data-v-ffa77206] {
   background: #375266;
   border-radius: 20px;
   min-height: 400px;
   padding: 35px 40px 35px 10px;
 }
-.box[data-v-535ac62a]::before {
+.box[data-v-ffa77206]::before {
   background: white;
   content: "";
   width: 10px;
@@ -269,7 +269,7 @@ img.small[data-v-535ac62a] {
   bottom: 65%;
   left: -100px;
 }
-.box[data-v-535ac62a]::after {
+.box[data-v-ffa77206]::after {
   background: white;
   content: "";
   width: 10px;
@@ -280,18 +280,18 @@ img.small[data-v-535ac62a] {
   bottom: -45px;
   left: -100px;
 }
-.box.active[data-v-535ac62a]::before {
+.box.active[data-v-ffa77206]::before {
   border: 5px solid #FFC225;
   background: #FFC225;
 }
-.box.next-active[data-v-535ac62a]::after {
+.box.next-active[data-v-ffa77206]::after {
   border: 5px solid #FFC225;
   background: #FFC225;
 }
-.box[data-v-535ac62a]:last-of-type::after {
+.box[data-v-ffa77206]:last-of-type::after {
   bottom: 0px;
 }
-.dot[data-v-535ac62a] {
+.dot[data-v-ffa77206] {
   display: inline-block;
   margin-right: 20px;
   width: 11px;
@@ -299,57 +299,57 @@ img.small[data-v-535ac62a] {
   background: #FFC225;
   border-radius: 100%;
 }
-.title[data-v-535ac62a] {
+.title[data-v-ffa77206] {
   padding-left: 40px;
   font-size: 36px;
   line-height: 76%;
   color: #FFC225;
   margin-bottom: 20px;
 }
-p > div > p[data-v-535ac62a] {
+p > div > p[data-v-ffa77206] {
   font-size: 20px;
   line-height: 75%;
 }
-ul[data-v-535ac62a] {
+ul[data-v-ffa77206] {
   display: block;
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
 }
-li[data-v-535ac62a] {
+li[data-v-ffa77206] {
   padding: 23px 0;
 }
 @media all and (max-width: 700px) {
-.box[data-v-535ac62a] {
+.box[data-v-ffa77206] {
     padding: 20px 40px 20px 20px;
     min-height: 200px;
 }
-.box[data-v-535ac62a]::before,
-    .box[data-v-535ac62a]::after {
+.box[data-v-ffa77206]::before,
+    .box[data-v-ffa77206]::after {
     left: -31px;
 }
-.box[data-v-535ac62a]::before {
+.box[data-v-ffa77206]::before {
     bottom: 58%;
 }
-.box[data-v-535ac62a]::after {
+.box[data-v-ffa77206]::after {
     top: 58%;
 }
-img.side[data-v-535ac62a] {
+img.side[data-v-ffa77206] {
     width: 25px;
     left: -40px;
 }
-.title[data-v-535ac62a] {
+.title[data-v-ffa77206] {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 10px;
 }
-.title[data-v-535ac62a] {
+.title[data-v-ffa77206] {
     padding-left: 25px;
 }
-ul[data-v-535ac62a] {
+ul[data-v-ffa77206] {
     padding-left: 25px;
 }
-li[data-v-535ac62a] {
+li[data-v-ffa77206] {
     padding: 12px 0;
 }
 }
@@ -1305,7 +1305,7 @@ video {
 }
 
 .font-lato {
-  font-family: Lato, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-opensans {
@@ -1319,6 +1319,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
